@@ -1,0 +1,252 @@
+{
+  "survey": {
+    "questions": [{
+      "questionId": 1,
+      "questionText": "Question 01",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 2,
+      "questionText": "Question 02",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+    {
+      "questionId": 3,
+      "questionText": "Question 03",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 4,
+      "questionText": "Question 04",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 5,
+      "questionText": "Question 05",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 6,
+      "questionText": "Question 06",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 7,
+      "questionText": "Question 07",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 8,
+      "questionText": "Question 08",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 9,
+      "questionText": "Question 09",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 10,
+      "questionText": "Question 10",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 11,
+      "questionText": "Question 11",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 12,
+      "questionText": "Question 12",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 13,
+      "questionText": "Question 13",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 14,
+      "questionText": "Question 14",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 15,
+      "questionText": "Question 15",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 16,
+      "questionText": "Question 16",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },{
+      "questionId": 17,
+      "questionText": "Question 17",
+      "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    },
+      {
+        "questionId": 18,
+        "questionText": "Question 18",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "questionId": 19,
+        "questionText": "Question 19",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "questionId": 20,
+        "questionText": "Question 20",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidateId": 1,
+      "name": "Candidate 1",
+      "responses": [
+        "3",
+        "7",
+        "2",
+        "6",
+        "4",
+        "5",
+        "8",
+        "1",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "candidateId": 2,
+      "name": "Candidate 2",
+      "responses": [
+        "5",
+        "",
+        "9",
+        "3",
+        "2",
+        "7",
+        "1",
+        "4",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "candidateId": 3,
+      "name": "Candidate 3",
+      "responses": [
+        "1",
+        "4",
+        "6",
+        "9",
+        "8",
+        "2",
+        "3",
+        "7",
+        "5",
+        "10"
+      ]
+    },
+    {
+      "candidateId": 4,
+      "name": "Candidate 4",
+      "responses": [
+        "10",
+        "8",
+        "3",
+        "2",
+        "6",
+        "1",
+        "7",
+        "9",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "candidateId": 5,
+      "name": "Candidate 5",
+      "responses": [
+        "2",
+        "5",
+        "7",
+        "1",
+        "9",
+        "3",
+        "4",
+        "6",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "candidateId": 6,
+      "name": "Candidate 6",
+      "responses": [
+        "4",
+        "1",
+        "10",
+        "8",
+        "5",
+        "9",
+        "6",
+        "3",
+        "7",
+        "2"
+      ]
+    },
+    {
+      "candidateId": 7,
+      "name": "Candidate 7",
+      "responses": [
+        "8",
+        "6",
+        "4",
+        "7",
+        "1",
+        "2",
+        "9",
+        "10",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "candidateId": 8,
+      "name": "Candidate 8",
+      "responses": [
+        "9",
+        "2",
+        "8",
+        "5",
+        "7",
+        "10",
+        "6",
+        "4",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "candidateId": 9,
+      "name": "Candidate 9",
+      "responses": [
+        "6",
+        "10",
+        "5",
+        "4",
+        "3",
+        "8",
+        "2",
+        "1",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "candidateId": 10,
+      "name": "Candidate 10",
+      "responses": [
+        "7",
+        "3",
+        "1",
+        "10",
+        "2",
+        "4",
+        "5",
+        "6",
+        "8",
+        "9"
+      ]
+    }
+  ]
+}

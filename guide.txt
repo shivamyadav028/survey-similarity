@@ -1,0 +1,66 @@
+To run your Express.js application with the provided code, follow these instructions:
+
+Install Node.js and npm:
+If you haven't already, download and install Node.js and npm from the official website: https://nodejs.org/
+
+Set Up MongoDB:
+
+Ensure that you have MongoDB installed and running either locally or on a remote server. Update the MongoDB connection string in your code where you have 'mongodb://localhost/surveyDB' with the appropriate connection string if it's not running locally.
+
+Clone Your Repository:
+
+Make sure your project directory structure matches the one you've defined earlier with the following directories and files:
+
+
+
+
+
+survey-similarity/
+
+
+  ├── app.js
+  |     This is the main application file. It typically contains the setup for your Express.js server, including middleware, routes, and database connections.
+  |
+  ├── models/
+  │   ├── survey.js
+  |   |     This file likely contains the Mongoose schema and model definition for surveys.
+  │   ├── response.js
+  |   |     This file likely contains the Mongoose schema and model definition for survey responses.
+  │   ├── candidate.js
+  |   |     This file likely contains the Mongoose schema and model definition for candidates who participate in surveys.
+  │   ├── question.js 
+  |        This file likely contains the Mongoose schema and model definition for survey questions.
+  |
+  ├── routes/
+  │   ├── surveys.js
+  |        This file likely contains route handlers for surveys, including listing surveys and creating surveys.
+  │   ├── responses.js
+  |        This file likely contains route handlers for responses, including submitting responses for a survey.
+  │   ├── candidates.js
+  |        This file likely contains route handlers for candidates, including searching for candidates by name.
+  │   ├── similarity.js
+  |        This file should contain route handlers for calculating the similarity between candidates, as previously discussed.
+  │   ├── questions.js
+  |        This file should contain route handlers for managing survey questions, including listing questions and creating new ones.
+  ├── data/
+  │   ├── sample-data.json
+         This directory may contain data files used for testing or seeding your database, such as the "sample-data.json" file.
+
+
+Install Dependencies:
+Open your terminal/command prompt, navigate to the root directory of your project, and run the following command to install project dependencies:
+
+
+npm install
+Run the Application:
+After successfully installing the dependencies, start your Express.js application with the following command:
+
+
+node app.js
+This will start your server, and you should see the message "Server is running on port {port}" in the terminal, where {port} is the port number you've defined (or 3000 if none specified).
+
+Access the API:
+You can now access your API using a tool like Postman, or you can make API requests from your front-end application.
+
+To list all surveys, make a GET request to http://localhost:3000/surveys (or your specified port).
+To submit a response for a survey from a user, make a POST request to http://localhost:3000/responses with the required data in the request body.
